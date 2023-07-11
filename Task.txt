@@ -1,0 +1,37 @@
+Dear Petro
+
+Following our recent discussion during the interview process, we would like to proceed to the next step and assess your practical skills and understanding of software development.
+
+We kindly ask you to develop a Train Component Management Application. Your task will involve designing and implementing a database structure, an API and a client application to manage the hierarchy of train components as detailed below:
+
+**Project Description:**
+The system should provide functionalities to:
+
+1. View item details such as ID, name, unique number, and whether or not a quantity can be assigned to it.
+2. Create, view, and manage a hierarchy of train components by defining parent-child relationships between items.
+3. Assign quantities to items where the 'Can Assign Quantity' attribute is set to 'Yes'.
+4. Provide a graphical or hierarchical view of the train component structure.
+
+**Rules:**
+The system should adhere to the following rules:
+
+1. Parent-Child Relationship: Each item within this hierarchy can associate with different parents across various nodes, while also having the capability to serve as a parent to multiple items.
+2. Quantity Assignment in Hierarchy: Only items marked with 'Can Assign Quantity' can have quantities assigned. Quantities should always be positive integers.
+3. No Self-Dependency: An item cannot be set as a child of itself.
+4. Avoid Circular Dependency: The hierarchy should not have circular dependencies.
+5. Consistent Sub-Hierarchy: If an item appears in multiple places within the hierarchy, each instance should have the same children.
+
+**Performance:**
+The system should efficiently handle a large number of nodes (up to 100,000) and provide fast and efficient search functionality within large hierarchies. The user interface should remain responsive and provide quick feedback to user actions, even when dealing with large hierarchies.
+
+A detailed explanation of the task -  https://docs.google.com/document/d/1EuYAo8UXv4JQIpaK34dFbNe_RgtjSSzSJ4dgKAL-bs4/edit
+
+Please complete the task within one week and send us the link to your GitHub repository with the code for the application, along with a brief report outlining your approach, challenges encountered, and how you addressed them.
+
+Thank you for your time and effort. We are looking forward to your solution.
+
+Best Regards,
+
+Yevhenii Basiuk
+Developer
+VisionIT
